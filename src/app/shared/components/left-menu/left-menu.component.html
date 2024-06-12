@@ -1,0 +1,11 @@
+<div class="hidden md:flex gap-4">
+  <div *ngFor="let item of drowpdownTitles; let i = index" class="group">
+    <div
+      class="flex items-center justify-center gap-1 hover:text-green-600 cursor-pointer"
+    >
+      {{ item }}
+      <i class="ri-arrow-down-s-line pt-1 group-hover:hidden"></i>
+      <i class="ri-arrow-up-s-line pt-1 hidden group-hover:inline"></i>
+    </div>
+  </div>
+</div>
